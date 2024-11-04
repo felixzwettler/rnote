@@ -356,7 +356,9 @@ impl Engine {
         }
     }
 
-    pub fn refresh_spellcheck_language(&mut self) {
+    pub fn refresh_spellcheck_language(&mut self) -> WidgetFlags {
+        let mut widget_flags = WidgetFlags::default();
+
         self.spellcheck.dict = self
             .document
             .spellcheck_language
@@ -376,7 +378,11 @@ impl Engine {
                 audioplayer: &mut self.audioplayer,
                 spellcheck: &mut self.spellcheck,
             });
+
+            widget_flags.redraw = true;
         }
+
+        widget_flags
     }
 
     pub fn optimize_epd(&self) -> bool {
@@ -452,6 +458,7 @@ impl Engine {
             | self.doc_resize_autoexpand()
             | self.current_pen_update_state()
             | self.update_rendering_current_viewport()
+            | self.refresh_spellcheck_language()
     }
 
     /// Redo the latest changes.
@@ -460,6 +467,7 @@ impl Engine {
             | self.doc_resize_autoexpand()
             | self.current_pen_update_state()
             | self.update_rendering_current_viewport()
+            | self.refresh_spellcheck_language()
     }
 
     pub fn can_undo(&self) -> bool {
