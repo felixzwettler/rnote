@@ -25,16 +25,70 @@ use crate::strokes::textstroke::{TextAttribute, TextStyle};
 use crate::{render, AudioPlayer, CloneConfig, SelectionCollision, WidgetFlags};
 use crate::{Camera, Document, PenHolder, StrokeStore};
 use futures::channel::{mpsc, oneshot};
+use once_cell::sync::Lazy;
 use p2d::bounding_volume::{Aabb, BoundingVolume};
 use rnote_compose::eventresult::EventPropagation;
 use rnote_compose::ext::AabbExt;
 use rnote_compose::penevent::{PenEvent, ShortcutKey};
 use rnote_compose::{Color, SplitOrder};
 use serde::{Deserialize, Serialize};
+use std::cell::RefCell;
+use std::fmt::Debug;
 use std::path::PathBuf;
 use std::sync::Arc;
 use std::time::Instant;
-use tracing::error;
+use tracing::{debug, error};
+
+thread_local! {
+    static SPELLCHECK_BROKER: RefCell<enchant::Broker> = RefCell::new(enchant::Broker::new());
+}
+
+pub static SPELLCHECK_AVAILABLE_LANGUAGES: Lazy<Vec<String>> = Lazy::new(|| {
+    SPELLCHECK_BROKER.with_borrow_mut(|broker| {
+        broker
+            .list_dicts()
+            .iter()
+            .map(|dict| dict.lang.to_owned())
+            .collect()
+    })
+});
+
+pub static SPELLCHECK_DEFAULT_LANGUAGE: Lazy<Option<String>> = Lazy::new(|| {
+    for system_language in glib::language_names() {
+        for available_language in SPELLCHECK_AVAILABLE_LANGUAGES.iter() {
+            if system_language.contains(available_language) {
+                debug!(
+                    "found default spellcheck language: {:?}",
+                    available_language
+                );
+
+                return Some(available_language.to_string());
+            }
+        }
+    }
+
+    None
+});
+
+#[derive(Default)]
+pub struct Spellcheck {
+    pub dict: Option<enchant::Dict>,
+}
+
+impl Debug for Spellcheck {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.debug_struct("Spellcheck")
+            .field(
+                "dict",
+                &self
+                    .dict
+                    .as_ref()
+                    .map(|dict| format!("Some({})", dict.get_lang()))
+                    .unwrap_or(String::from("None")),
+            )
+            .finish()
+    }
+}
 
 /// An immutable view into the engine, excluding the penholder.
 #[derive(Debug)]
@@ -45,6 +99,7 @@ pub struct EngineView<'a> {
     pub store: &'a StrokeStore,
     pub camera: &'a Camera,
     pub audioplayer: &'a Option<AudioPlayer>,
+    pub spellcheck: &'a Spellcheck,
 }
 
 /// Constructs an `EngineView` from an identifier containing an `Engine` instance.
@@ -58,6 +113,7 @@ macro_rules! engine_view {
             store: &$engine.store,
             camera: &$engine.camera,
             audioplayer: &$engine.audioplayer,
+            spellcheck: &$engine.spellcheck,
         }
     };
 }
@@ -71,6 +127,7 @@ pub struct EngineViewMut<'a> {
     pub store: &'a mut StrokeStore,
     pub camera: &'a mut Camera,
     pub audioplayer: &'a mut Option<AudioPlayer>,
+    pub spellcheck: &'a mut Spellcheck,
 }
 
 /// Constructs an `EngineViewMut` from an identifier containing an `Engine` instance.
@@ -84,6 +141,7 @@ macro_rules! engine_view_mut {
             store: &mut $engine.store,
             camera: &mut $engine.camera,
             audioplayer: &mut $engine.audioplayer,
+            spellcheck: &mut $engine.spellcheck,
         }
     };
 }
@@ -98,6 +156,7 @@ impl EngineViewMut<'_> {
             store: self.store,
             camera: self.camera,
             audioplayer: self.audioplayer,
+            spellcheck: self.spellcheck,
         }
     }
 }
@@ -205,6 +264,8 @@ pub struct Engine {
     #[serde(skip)]
     audioplayer: Option<AudioPlayer>,
     #[serde(skip)]
+    spellcheck: Spellcheck,
+    #[serde(skip)]
     visual_debug: bool,
     // the task sender. Must not be modified, only cloned.
     #[serde(skip)]
@@ -241,6 +302,7 @@ impl Default for Engine {
             optimize_epd: false,
 
             audioplayer: None,
+            spellcheck: Spellcheck::default(),
             visual_debug: false,
             tasks_tx: EngineTaskSender(tasks_tx),
             tasks_rx: Some(EngineTaskReceiver(tasks_rx)),
@@ -292,6 +354,41 @@ impl Engine {
         } else {
             self.audioplayer.take();
         }
+    }
+
+    pub fn refresh_spellcheck_language(&mut self) -> WidgetFlags {
+        let mut widget_flags = WidgetFlags::default();
+
+        self.spellcheck.dict = SPELLCHECK_BROKER
+            .with_borrow_mut(|broker| self.document.spellcheck_options.dictionary(broker));
+
+        if let Pen::Typewriter(typewriter) = self.penholder.current_pen_ref() {
+            typewriter.refresh_spellcheck_cache_in_modifying_stroke(&mut engine_view_mut!(self));
+
+            widget_flags.redraw = true;
+        }
+
+        widget_flags
+    }
+
+    pub fn get_spellcheck_corrections(&self) -> Option<Vec<String>> {
+        if let Pen::Typewriter(typewriter) = self.penholder.current_pen_ref() {
+            return typewriter
+                .get_spellcheck_correction_in_modifying_stroke(&mut engine_view!(self));
+        }
+
+        None
+    }
+
+    pub fn apply_spellcheck_correction(&mut self, correction: &str) -> WidgetFlags {
+        if let Pen::Typewriter(typewriter) = self.penholder.current_pen_mut() {
+            return typewriter.apply_spellcheck_correction_in_modifying_stroke(
+                correction,
+                &mut engine_view_mut!(self),
+            );
+        }
+
+        WidgetFlags::default()
     }
 
     pub fn optimize_epd(&self) -> bool {
@@ -367,6 +464,7 @@ impl Engine {
             | self.doc_resize_autoexpand()
             | self.current_pen_update_state()
             | self.update_rendering_current_viewport()
+            | self.refresh_spellcheck_language()
     }
 
     /// Redo the latest changes.
@@ -375,6 +473,7 @@ impl Engine {
             | self.doc_resize_autoexpand()
             | self.current_pen_update_state()
             | self.update_rendering_current_viewport()
+            | self.refresh_spellcheck_language()
     }
 
     pub fn can_undo(&self) -> bool {
