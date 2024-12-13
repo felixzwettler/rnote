@@ -17,7 +17,6 @@ use rnote_compose::PenPath;
 use rnote_compose::SplitOrder;
 use rnote_engine::engine::StrokeContent;
 use rnote_engine::pens::PenStyle;
-use rnote_engine::store::chrono_comp::StrokeLayer;
 use rnote_engine::strokes::resize::{ImageSizeOption, Resize};
 use rnote_engine::strokes::BrushStroke;
 use rnote_engine::strokes::Stroke;
