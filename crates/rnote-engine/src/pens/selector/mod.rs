@@ -25,7 +25,6 @@ use rnote_compose::EventResult;
 use rnote_compose::{color, Color};
 use std::collections::HashSet;
 use std::time::Instant;
-use tracing::debug;
 use tracing::error;
 
 #[derive(Clone, Copy, Debug, PartialEq)]
@@ -195,13 +194,18 @@ impl PenBehaviour for Selector {
                     let inkml_contents = stroke_content.to_inkml(dpi);
                     match inkml_contents {
                         Ok(inkml_bytes) => {
-                            println!("generated inkml :  {:?}", str::from_utf8(&inkml_bytes));
+                            tracing::debug!(
+                                "generated inkml :  {:?}",
+                                str::from_utf8(&inkml_bytes)
+                            );
                             clipboard_content.push((
                                 inkml_bytes,
                                 "application/x.windows.InkML Format".to_string(),
                             ));
                         }
-                        _ => (),
+                        Err(e) => error!(
+                            "Could not convert strokes to inkml to add to the clipboard, {e}"
+                        ),
                     }
 
                     if let Some(stroke_content_svg) = stroke_content_svg {
