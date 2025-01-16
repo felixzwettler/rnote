@@ -1,91 +1,85 @@
-# ITALIAN TRANSLATION FOR RNOTE.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the rnote package.
-# ALBANO BATTISTELLA <ALBANO_BATTISTELLA@HOTMAIL.COM>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: rnote\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 10:39+0200\n"
-"PO-Revision-Date: 2024-12-09 10:00+0000\n"
-"Last-Translator: Matteo Ballabio <matteo@ballabio.dev>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/rnote/repo/it/>\n"
-"Language: it\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
 
 #: crates/rnote-ui/data/app.desktop.in.in:5
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:9
 #: crates/rnote-ui/src/dialogs/mod.rs:33
 msgid "Sketch and take handwritten notes"
-msgstr "Disegna e prendi appunti a mano"
+msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: crates/rnote-ui/data/app.desktop.in.in:15
 msgid "Gnome;GTK;Office;Graphics;Notes;"
-msgstr "Gnome;GTK;Office;Grafica;Note;"
+msgstr ""
 
 #: crates/rnote-ui/data/app.desktop.in.in:20
 #: crates/rnote-ui/data/ui/shortcuts.ui:20
 msgid "New Window"
-msgstr "Nuova Finestra"
+msgstr ""
 
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:21
 msgid ""
 "Rnote is a vector-based drawing app for sketching, handwritten notes and to "
 "annotate documents and pictures."
 msgstr ""
-"Rnote è un'applicazione basata sulla grafica vettoriale, per disegnare, "
-"prendere appunti e per annotare documenti e immagini ."
 
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:25
 msgid ""
 "Disclaimer: The file format is still unstable. It might change and break "
 "compatibility between versions."
 msgstr ""
-"Disclaimer: il formato del file è ancora instabile. Potrebbe cambiare tra "
-"versioni e perdere compatibilità con le versioni precedenti."
 
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:35
 msgid "An overview"
-msgstr "Una panoramica"
+msgstr ""
 
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:40
 msgid "A selection"
-msgstr "Una selezione"
+msgstr ""
 
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:45
 msgid "Write text with the typewriter"
-msgstr "Scrivi il testo con la macchina da scrivere"
+msgstr ""
 
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:50
 msgid "Hide toolbars with the focus mode"
-msgstr "Nascondi le barre degli strumenti con la modalità focus"
+msgstr ""
 
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:55
 msgid "Quickly access files through workspace"
-msgstr "Accedi rapidamente ai file tramite l'area di lavoro"
+msgstr ""
 
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:60
 msgid "Adjust document settings"
-msgstr "Regola le impostazioni del documento"
+msgstr ""
 
 #: crates/rnote-ui/data/app.metainfo.xml.in.in:65
 msgid "Configure action shortcuts"
-msgstr "Configura azioni delle scorciatoie"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:5
 #: crates/rnote-ui/data/ui/shortcuts.ui:185
 msgid "Clear Document"
-msgstr "Pulisci Documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:6
 msgid "This clears the entire document. Please confirm."
-msgstr "Questo cancella l'intero documento. Si prega di confermare."
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:10
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:22
@@ -99,109 +93,102 @@ msgstr "Questo cancella l'intero documento. Si prega di confermare."
 #: crates/rnote-ui/data/ui/dialogs/import.ui:213
 #: crates/rnote-ui/src/workspacebrowser/widgethelper.rs:31
 msgid "Cancel"
-msgstr "Annulla"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:11
 msgid "Clear"
-msgstr "Pulisci"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:16
 #: crates/rnote-ui/data/ui/mainheader.ui:22
 #: crates/rnote-ui/src/canvas/mod.rs:592
 msgid "New Document"
-msgstr "Nuovo Documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:17
 msgid ""
 "Creating a new document will discard any unsaved changes.\n"
 "Do you want to save the current document?"
 msgstr ""
-"La creazione di un nuovo documento cancella tutte le modifiche non "
-"salvate. \n"
-"Vuoi salvare il documento corrente?"
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:23
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:41
 msgid "Discard"
-msgstr "Scarta"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:24
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:42
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:60
 #: crates/rnote-ui/src/dialogs/export.rs:42
 msgid "Save"
-msgstr "Salva"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:29
 msgid "Close Tab"
-msgstr "Chiudi Scheda"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:30
 msgid ""
 "This tab contains unsaved changes.\n"
 "Changes which are not saved will be permanently lost."
 msgstr ""
-"Questa scheda contiene modifiche non salvate.\n"
-"Le modifiche non salvate andranno perse."
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:47
 msgid "Close Window"
-msgstr "Chiudi Finestra"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:48
 msgid ""
 "Some opened files contain unsaved changes.\n"
 "Changes which are not saved will be permanently lost."
 msgstr ""
-"Alcuni dei file aperti contengono modifiche non salvate. \n"
-"Le modifiche non salvate andranno perse."
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:54
 msgid "Unsaved Documents"
-msgstr "Documenti non salvati"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:59
 msgid "Discard All"
-msgstr "Scarta Tutto"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:65
 msgid "Edit Workspace"
-msgstr "Modifica area di lavoro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:79
 #: crates/rnote-ui/data/ui/settingspanel.ui:241
 #: crates/rnote-ui/src/workspacebrowser/widgethelper.rs:36
 msgid "Apply"
-msgstr "Applica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:119
 msgid "Workspace Name"
-msgstr "Nome dell'area di lavoro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:124
 msgid "Icon"
-msgstr "Icona"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:125
 msgid "Change the workspace icon"
-msgstr "Cambia l'icona dell'area di lavoro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:145
 #: crates/rnote-ui/data/ui/settingspanel.ui:293
 msgid "Color"
-msgstr "Colore"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:146
 msgid "Change the workspace color"
-msgstr "Cambia il colore dell'area di lavoro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:160
 msgid "Directory"
-msgstr "Cartelle"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:161
 msgid "Change the workspace directory"
-msgstr "Cambia la cartella dell'area di lavoro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:170
 #: crates/rnote-ui/data/ui/dialogs/export.ui:290
@@ -210,16 +197,16 @@ msgstr "Cambia la cartella dell'area di lavoro"
 #: crates/rnote-ui/src/dialogs/export.rs:462
 #: crates/rnote-ui/src/dialogs/mod.rs:522
 msgid "- no directory selected -"
-msgstr "- nessuna cartella selezionata -"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/dialogs.ui:185
 msgid "Change the directory"
-msgstr "Cambia cartella"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:5
 #: crates/rnote-ui/src/dialogs/export.rs:285
 msgid "Export Document"
-msgstr "Esporta Documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:19
 #: crates/rnote-ui/data/ui/dialogs/export.ui:188
@@ -227,17 +214,17 @@ msgstr "Esporta Documento"
 #: crates/rnote-ui/src/dialogs/export.rs:1025
 #: crates/rnote-ui/src/dialogs/export.rs:1088
 msgid "Export"
-msgstr "Esporta"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:74
 #: crates/rnote-ui/data/ui/dialogs/export.ui:483
 msgid "Export File"
-msgstr "Esporta File"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:75
 #: crates/rnote-ui/data/ui/dialogs/export.ui:484
 msgid "Select the export file"
-msgstr "Selezionare il file da esportare"
+msgstr ""
 
 #. force the user to pick another file
 #: crates/rnote-ui/data/ui/dialogs/export.ui:84
@@ -251,60 +238,60 @@ msgstr "Selezionare il file da esportare"
 #: crates/rnote-ui/src/dialogs/export.rs:769
 #: crates/rnote-ui/src/dialogs/export.rs:820
 msgid "- no file selected -"
-msgstr "- nessun file selezionato -"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:108
 #: crates/rnote-ui/data/ui/dialogs/export.ui:319
 #: crates/rnote-ui/data/ui/dialogs/export.ui:517
 msgid "Export Preferences"
-msgstr "Esporta Preferenze"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:112
 #: crates/rnote-ui/data/ui/dialogs/export.ui:323
 #: crates/rnote-ui/data/ui/dialogs/export.ui:521
 msgid "With Background"
-msgstr "Con Sfondo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:113
 #: crates/rnote-ui/data/ui/dialogs/export.ui:324
 #: crates/rnote-ui/data/ui/dialogs/export.ui:522
 msgid "Set whether the background should be exported"
-msgstr "Impostare se lo sfondo dovrebbe essere esportato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:118
 #: crates/rnote-ui/data/ui/dialogs/export.ui:329
 #: crates/rnote-ui/data/ui/dialogs/export.ui:527
 msgid "With Pattern"
-msgstr "Con Modello"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:119
 #: crates/rnote-ui/data/ui/dialogs/export.ui:330
 #: crates/rnote-ui/data/ui/dialogs/export.ui:528
 msgid "Set whether the background pattern should be exported"
-msgstr "Impostare se il modello di sfondo dovrebbe essere esportato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:124
 #: crates/rnote-ui/data/ui/dialogs/export.ui:335
 #: crates/rnote-ui/data/ui/dialogs/export.ui:533
 msgid "Optimize for Printing"
-msgstr "Ottimizza per la stampa"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:125
 #: crates/rnote-ui/data/ui/dialogs/export.ui:336
 #: crates/rnote-ui/data/ui/dialogs/export.ui:534
 msgid "Set whether the content should be optimized for printing"
-msgstr "Imposta se il contenuto deve essere ottimizzato per la stampa"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:130
 #: crates/rnote-ui/data/ui/dialogs/export.ui:341
 #: crates/rnote-ui/data/ui/dialogs/export.ui:539
 msgid "Export Format"
-msgstr "Esporta Formato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:131
 #: crates/rnote-ui/data/ui/dialogs/export.ui:342
 msgid "The export format"
-msgstr "Il formato da esportare"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:135
 #: crates/rnote-ui/data/ui/dialogs/export.ui:346
@@ -313,22 +300,22 @@ msgstr "Il formato da esportare"
 #: crates/rnote-ui/src/dialogs/export.rs:635
 #: crates/rnote-ui/src/dialogs/export.rs:954
 msgid "Svg"
-msgstr "Svg"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:136
 #: crates/rnote-ui/src/dialogs/export.rs:315
 msgid "Pdf"
-msgstr "Pdf"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:137
 #: crates/rnote-ui/src/dialogs/export.rs:326
 msgid "Xopp"
-msgstr "Xopp"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:145
 #: crates/rnote-ui/data/ui/dialogs/export.ui:356
 msgid "Page Order"
-msgstr "Ordine di pagine"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:146
 msgid ""
@@ -336,56 +323,53 @@ msgid ""
 "that expand in horizontal and vertical directions\n"
 "are cut into pages"
 msgstr ""
-"L'ordine delle pagine quando i documenti con layout\n"
-"che si espandono in direzione orizzontale e verticale\n"
-"vengono tagliati in pagine"
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:152
 #: crates/rnote-ui/data/ui/dialogs/export.ui:363
 msgid "Horizontal First"
-msgstr "Orizzontale prima"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:153
 #: crates/rnote-ui/data/ui/dialogs/export.ui:364
 msgid "Vertical First"
-msgstr "Verticale prima"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:174
 #: crates/rnote-ui/src/dialogs/export.rs:615
 msgid "Export Document Pages"
-msgstr "Esporta pagine del documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:260
 msgid "Page Files Naming:"
-msgstr "Denominazione di file e pagine:"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:280
 msgid "Export Directory"
-msgstr "Esporta Cartella"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:281
 msgid "Select the export directory"
-msgstr "Selezionare la cartella di esportazione"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:312
 msgctxt ""
 "When pages are exported this is the base name, followed by: - Page 0,1,.."
 msgid "Export Files Stem Name"
-msgstr "Esporta il nome del file"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:347
 #: crates/rnote-ui/data/ui/dialogs/export.ui:545
 #: crates/rnote-ui/src/dialogs/export.rs:646
 #: crates/rnote-ui/src/dialogs/export.rs:965
 msgid "Png"
-msgstr "Png"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:348
 #: crates/rnote-ui/data/ui/dialogs/export.ui:546
 #: crates/rnote-ui/src/dialogs/export.rs:659
 #: crates/rnote-ui/src/dialogs/export.rs:978
 msgid "Jpeg"
-msgstr "Jpeg"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:357
 msgid ""
@@ -393,15 +377,12 @@ msgid ""
 "    that expand in horizontal and vertical directions\n"
 "    are cut into pages"
 msgstr ""
-"L'ordine delle pagine quando i documenti con layout\n"
-"che si espandono in direzione orizzontale e verticale\n"
-"vengono tagliati in pagine"
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:372
 #: crates/rnote-ui/data/ui/dialogs/export.ui:554
 #: crates/rnote-ui/data/ui/dialogs/import.ui:160
 msgid "Bitmap Scale-Factor"
-msgstr "Fattore di scala bitmap"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:373
 #: crates/rnote-ui/data/ui/dialogs/import.ui:161
@@ -409,451 +390,442 @@ msgid ""
 "Set the bitmap scale factor in relation\n"
 "    to the actual size on the document"
 msgstr ""
-"Imposta il fattore di scala bitmap in relazione\n"
-"           alle dimensioni effettive del documento"
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:381
 #: crates/rnote-ui/data/ui/dialogs/export.ui:563
 msgid "Jpeg Quality"
-msgstr "Qualità del Jpeg"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:382
 #: crates/rnote-ui/data/ui/dialogs/export.ui:564
 msgid "Set the quality of the Jpeg image (1 - 100)"
-msgstr "Impostare la qualità dell'immagine Jpeg (1 - 100)"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:414
 #: crates/rnote-ui/src/dialogs/export.rs:933
 msgid "Export Selection"
-msgstr "Esporta selezione"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:540
 msgid "The export image format"
-msgstr "Il formato immagine da esportare"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:555
 msgid ""
 "Set the bitmap scale factor in relation\n"
 "to the actual size on the document"
 msgstr ""
-"Imposta il fattore di scala bitmap in relazione \n"
-"alle dimensioni effettive del documento"
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:571
 msgid "Margin"
-msgstr "Margine"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/export.ui:572
 msgid "Set the margin around the selected area"
-msgstr "Imposta il margine attorno all'area selezionata"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:5
 msgid "Import Pdf"
-msgstr "Importa Pdf"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:19
 #: crates/rnote-ui/data/ui/dialogs/import.ui:218
 #: crates/rnote-ui/src/dialogs/import.rs:94
 msgid "Import"
-msgstr "Importa"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:63
 msgid "Info"
-msgstr "Informazioni"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:81
 msgid "Pdf Import Preferences"
-msgstr "Preferenze sull'importazione dei Pdf"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:85
 msgid "Start Page"
-msgstr "Pagina Iniziale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:94
 msgid "End Page"
-msgstr "Pagina Finale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:103
 msgid "Adjust Document"
-msgstr "Regola documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:104
 msgid "Whether the document layout should be adjusted to the Pdf"
-msgstr "Se il layout del documento deve essere adattato al Pdf"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:109
 msgid "Page Width (%)"
-msgstr "Larghezza Pagina (%)"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:110
 msgid "Set the width of imported Pdf's in percentage to the format width"
 msgstr ""
-"Imposta la larghezza dei Pdf importati in percentuale sulla larghezza del "
-"formato"
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:117
 msgid "Page Spacing"
-msgstr "Spaziatura delle pagine"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:118
 msgid "How Pdf pages are spaced"
-msgstr "Come sono distanziate le pagine Pdf"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:122
 msgid "Continuous"
-msgstr "Continuo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:123
 msgid "One per Document Page"
-msgstr "Uno per ogni pagina del documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:131
 msgid "Pages Type"
-msgstr "Tipo di pagine"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:132
 msgid "Set whether Pdf's should be imported as vector or bitmap images"
 msgstr ""
-"Imposta se i Pdf devono essere importati come immagini vettoriali o bitmap"
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:144
 msgid "Vector"
-msgstr "Vettoriale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:151
 msgid "Bitmap"
-msgstr "Bitmap"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:169
 msgid "Page Borders"
-msgstr "Bordi della pagina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:170
 msgid "Whether the pages have drawn borders"
-msgstr "Se le pagine hanno i bordi tracciati"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:204
 msgid "Import Xournal++ File"
-msgstr "Importa File Xournal++"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:247
 msgid "Xournal++ File Import Preferences"
-msgstr "Preferenze importazione dei file Xournal++"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:251
 msgid "DPI"
-msgstr "DPI"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:252
 msgid "Set the preferred DPI for the Xournal++ file"
-msgstr "Imposta il DPI preferito per il file Xournal++"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:18
 msgid "Brush Style"
-msgstr "Stile Pennello"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:33
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:149
 msgid "Brush Configuration"
-msgstr "Configurazione Pennello"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:66
 msgid "Brush Styles"
-msgstr "Stile del pennello"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:95
 msgid "Marker"
-msgstr "Evidenziatore"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:96
 msgid "Mark underneath other strokes"
-msgstr "Disegna sotto ad altri tratti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:107
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:201
 msgid "Solid"
-msgstr "Solido"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:108
 msgid "Draw solid color strokes"
-msgstr "Disegna tratti solidi"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:119
 msgid "Textured"
-msgstr "Testurizzato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:120
 msgid "Draw textured strokes"
-msgstr "Disegna tratti testurizzati"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:170
 msgid "Path Modelling"
-msgstr "Personalizza percorso"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:187
 msgid "Simple"
-msgstr "Semplice"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:188
 msgid "Produces line segments from the raw input.\n"
-msgstr "Produce segmenti di linee dagli input\n"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:194
 msgid "Curved"
-msgstr "Curvato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:195
 msgid "Produces smooth, curved segments.\n"
-msgstr "Produce segmenti lisci e curvi\n"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:201
 msgid "Modeled"
-msgstr "Modellato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:202
 msgid ""
 "Produces a modeled path with physics based algorithms.\n"
 "Results in the best looking handwriting."
 msgstr ""
-"Produce un percorso modellato tramite algoritmi basati sulla fisica.\n"
-"Risultando nella scrittura più bella."
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:211
 msgid "Solid Style"
-msgstr "Stile Solido"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:214
 msgid "Pressure Curve"
-msgstr "Curva Pressione tratto"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:215
 msgid "Choose a pressure curve"
-msgstr "Scegli la pressione del tratto"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:219
 msgid "Constant"
-msgstr "Costante"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:220
 msgid "Linear"
-msgstr "Lineare"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:221
 msgid "Square root"
-msgstr "Radice quadrata"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:222
 msgid "Cubic root"
-msgstr "Radice cubica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:223
 msgid "Quadratic Parabola"
-msgstr "Parabolica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:224
 msgid "Cubic Parabola"
-msgstr "Cubica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:235
 msgid "Textured Style"
-msgstr "Stile Testurizzato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:238
 msgid "Density"
-msgstr "Densità"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:239
 msgid "The density is the amount of dots per 10x10 area"
-msgstr "La densità è la quantità di punti per area 10x10"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:248
 msgctxt ""
 "Drawing with a textured pen, how the dots of the texture are distributed"
 msgid "Stroke Dots Position Distribution"
-msgstr "Distribuzione della posizione dei punti del tratto"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:249
 msgid "Choose a dots position probability distribution"
-msgstr "Scegli una distribuzione di probabilità della posizione dei punti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:253
 msgctxt "A variant of the textured pen texture distribution"
 msgid "Uniform"
-msgstr "Uniforme"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:254
 msgctxt "A variant of the textured pen texture distribution"
 msgid "Normal"
-msgstr "Normale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:255
 msgctxt "A variant of the textured pen texture distribution"
 msgid "Exponential"
-msgstr "Esponenziale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/brushpage.ui:256
 msgctxt "A variant of the textured pen texture distribution"
 msgid "Reverse Exponential"
-msgstr "Esponenziale inverso"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/eraserpage.ui:21
 msgid "Trash Strokes"
-msgstr "Elimina TrattI"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/eraserpage.ui:31
 msgid "Split Strokes"
-msgstr "Cancella parte del tratto"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/penssidebar.ui:17
 #: crates/rnote-ui/src/settingspanel/penshortcutmodels.rs:81
 msgid "Brush"
-msgstr "Pennello"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/penssidebar.ui:33
 #: crates/rnote-ui/src/settingspanel/penshortcutmodels.rs:82
 msgid "Shaper"
-msgstr "Forma"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/penssidebar.ui:49
 #: crates/rnote-ui/src/settingspanel/penshortcutmodels.rs:83
 msgid "Typewriter"
-msgstr "Macchina da scrivere"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/penssidebar.ui:65
 #: crates/rnote-ui/src/settingspanel/penshortcutmodels.rs:84
 msgid "Eraser"
-msgstr "Gomma"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/penssidebar.ui:81
 #: crates/rnote-ui/src/settingspanel/penshortcutmodels.rs:85
 msgid "Selector"
-msgstr "Selettore"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/penssidebar.ui:97
 #: crates/rnote-ui/src/settingspanel/penshortcutmodels.rs:86
 msgid "Tools"
-msgstr "Strumenti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:22
 msgid "Select With a Polygon"
-msgstr "Seleziona Area"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:32
 msgid "Select With a Rectangle"
-msgstr "Selezione rettangolare"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:42
 msgid "Select One by One"
-msgstr "Seleziona uno ad uno"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:52
 msgid "Select Intersecting Path"
-msgstr "Seleziona Tratti Intersecati"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:73
 msgid "Lock Aspectratio While Resizing the Selection"
-msgstr "Blocca le proporzioni durante il ridimensionamento della selezione"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:83
 msgid "Select All Strokes"
-msgstr "Seleziona Tutti I Tratti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:94
 msgid "Deselect All Strokes"
-msgstr "Deseleziona Tutti I Tratti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:105
 msgid "Invert Color Brightness of All Selected Strokes"
-msgstr "Inverti la luminosità del colore di tutti i tratti selezionati"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:116
 #: crates/rnote-ui/data/ui/shortcuts.ui:236
 msgid "Duplicate Selection"
-msgstr "Duplica Selezione"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/selectorpage.ui:127
 msgid "Delete Selection"
-msgstr "Elimina Selezione"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:19
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:248
 msgid "Shape Builders"
-msgstr "Tipo Di Forma"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:35
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:290
 msgid "Constraints"
-msgstr "Limitazioni"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:64
 msgid "Shaper Style"
-msgstr "Stile Delle forme"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:77
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:170
 msgid "Shape Configuration"
-msgstr "Configurazioni Forme"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:101
 msgid "Shaper Styles"
-msgstr "Stile Delle Forme"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:130
 msgid "Smooth"
-msgstr "Lisce"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:141
 msgid "Rough"
-msgstr "Ruvide"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:192
 msgid "Rough style"
-msgstr "Stile ruvido"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:196
 msgid "Fill Style"
-msgstr "Stile Di Riempimento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:197
 msgid "Choose a fill style"
-msgstr "Scegli uno stile di riempimento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:202
 msgid "Hachure"
-msgstr "Ombreggiatura"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:203
 msgid "Zig-Zag"
-msgstr "Zig-Zag"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:204
 msgid "Zig-Zag Line"
-msgstr "Linea a Zig-Zag"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:205
 msgid "Crosshatch"
-msgstr "Ombreggiatura con tratteggi incrociati"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:206
 #: crates/rnote-ui/data/ui/settingspanel.ui:322
 msgid "Dots"
-msgstr "Punti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:207
 msgid "Dashed"
-msgstr "Tratteggiato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:215
 msgid "Hachure Angle"
-msgstr "Angolo Di Ombreggiatura"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:216
 msgid "Set the angle of hachure fills"
-msgstr "Imposta l'angolo dei riempimenti del tratteggio"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:319
 msgid "Enabled"
-msgstr "Abilitato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:320
 msgid ""
@@ -861,431 +833,420 @@ msgid ""
 "enable/disable constraints\n"
 "when this switch is off/on"
 msgstr ""
-"Tenere premuto Ctrl per temporaneamente\n"
-"attivare/disattivare le limitazioni\n"
-"quando l'opzione è disattivata/attivata"
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:327
 msgid "1:1"
-msgstr "1:1"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:332
 msgid "3:2"
-msgstr "3:2"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/shaperpage.ui:337
 msgid "Golden Ratio (1:1.618)"
-msgstr "Sezione Aurea (1:1.618)"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/toolspage.ui:19
 msgid "Insert Vertical Space"
-msgstr "Inserisci Spazio Verticale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/toolspage.ui:29
 #: crates/rnote-ui/data/ui/shortcuts.ui:108
 msgid "Move View"
-msgstr "Sposta"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/toolspage.ui:40
 msgid "Zoom In/Out"
-msgstr "Zoom avanti/indietro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:43
 msgid "Pick And Insert Emoji"
-msgstr "Inserire Emoji"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:68
 msgid "Reset Text Attributes"
-msgstr "Ripristina Formattazione"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:77
 msgid "Bold"
-msgstr "Grassetto"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:86
 msgid "Italic"
-msgstr "Corsivo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:95
 msgid "Underline"
-msgstr "Sottolineato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:104
 msgid "Strikethrough"
-msgstr "Barrato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:126
 msgid "Align Left"
-msgstr "Allinea A Sinistra"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:133
 msgid "Align Center"
-msgstr "Allinea Al Centro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:140
 msgid "Align Right"
-msgstr "Allinea A Destra"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penssidebar/typewriterpage.ui:147
 msgid "Fill"
-msgstr "Giustificato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/workspacesbar/workspacesbar.ui:60
 msgid "Move Selected Workspace Up"
-msgstr "Sposta L'Area Di Lavoro Selezionata Sopra"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/workspacesbar/workspacesbar.ui:69
 msgid "Move Selected Workspace Down"
-msgstr "Sposta L'area Di Lavoro Selezionata Sotto"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/workspacesbar/workspacesbar.ui:80
 msgid "Add Workspace"
-msgstr "Aggiungi Area Di Lavoro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/workspacesbar/workspacesbar.ui:89
 msgid "Remove Selected Workspace"
-msgstr "Rimuovi L'Area Di Lavoro Selezionata"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/workspacesbar/workspacesbar.ui:99
 msgid "Edit Selected Workspace"
-msgstr "Modifica L'area Di Lavoro Selezionata"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:24
 msgid "Co_lor Scheme"
-msgstr "Schema Colori"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:26
 msgid "Use _System Colors"
-msgstr "Usa I Colori Del Sistema"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:31
 msgid "Use _Light Colors"
-msgstr "Usa Colori Chiari"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:36
 msgid "Use _Dark Colors"
-msgstr "Usa _Colori Scuri"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:42
 msgid "Developer _Menu"
-msgstr "Menu _Sviluppatore"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:47
 msgid "Visual _Debugging"
-msgstr "Debug _Visivo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:51
 msgid "Export Engine _State"
-msgstr "Esporta 'Engine _State'"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:55
 msgid "Export Engine _Config"
-msgstr "Esporta 'Engine _Config'"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:61
 msgid "De_veloper Mode"
-msgstr "Mo_dalità Sviluppatore"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:66
 msgid "New _Window"
-msgstr "Nuova_Finestra"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:72
 msgid "_New"
-msgstr "_Nuovo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:76
 msgid "_Open"
-msgstr "_Apri"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:80
 msgid "_Save"
-msgstr "_Salva"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:84
 msgid "Save _As"
-msgstr "Salva Come"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:90
 msgid "_Print"
-msgstr "_Stampa"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:94
 msgid "_Import File"
-msgstr "_Importa File"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:98
 msgid "_Clipboard"
-msgstr "_Appunti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:100
 #: crates/rnote-ui/data/ui/contextmenu.ui:10
 msgid "_Copy"
-msgstr "_Copia"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:104
 #: crates/rnote-ui/data/ui/contextmenu.ui:14
 msgid "C_ut"
-msgstr "T_aglia"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:108
 #: crates/rnote-ui/data/ui/contextmenu.ui:18
 msgid "_Paste"
-msgstr "_Incolla"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:113
 msgid "_Export…"
-msgstr "_Esporta…"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:115
 msgid "Export _Document"
-msgstr "Esporta_Documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:119
 msgid "Export Document _Pages"
-msgstr "Esporta Pagine Del Documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:123
 msgid "Export _Selection"
-msgstr "Esporta_Selezione"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:130
 msgid "Se_ttings"
-msgstr "_Impostazioni"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:134
 msgid "_Keyboard Shortcuts"
-msgstr "_Scorciatoie Da Tastiera"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:138
 msgid "_Donate 💝"
-msgstr "_Donazione 💝"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:142
 msgid "A_bout Rnote"
-msgstr "I_nformazioni su Rnote"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:173
 msgid "Sidebar on the Left Side"
-msgstr "Barra Laterale A Sinistra"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:182
 msgid "Sidebar on the Right Side"
-msgstr "Barra Laterale A Destra"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/appmenu.ui:192
 #: crates/rnote-ui/data/ui/shortcuts.ui:56
 msgid "Toggle Fullscreen"
-msgstr "Attiva Schermo intero"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:24
 msgid "_Snap Positions"
-msgstr "_Posizioni Snap"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:29
 msgid "_Pen Sounds"
-msgstr "_Suoni Penna"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:34
 msgid "_Return to Origin Page"
-msgstr "Ritorna Alla Pagina Iniziale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:38
 msgid "C_lear Document"
-msgstr "Pulisci Pagina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:44
 msgid "Show _Format Borders"
-msgstr "Mostra _Bordi Pagina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:49
 msgid "Show _Origin Indicator"
-msgstr "Mostra_Indicatore di origine"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:54
 msgid "Draw With _Touch Input"
-msgstr "Disegna Con _Input Touch"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:59
 msgid "Block Pinch to _Zoom"
-msgstr "Blocca Pinch to Zoom"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:64
 msgid "Respect Borders When Pasting"
-msgstr "Rispetta i bordi quando incolli"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:95
 #: crates/rnote-ui/data/ui/shortcuts.ui:132
 #: crates/rnote-ui/data/ui/shortcuts.ui:138
 #: crates/rnote-ui/data/ui/shortcuts.ui:144
 msgid "Zoom out"
-msgstr "Diminuisci Zoom"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:104
 msgid "Reset Zoom"
-msgstr "Ripristina Zoom"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:111
 #: crates/rnote-ui/data/ui/shortcuts.ui:114
 #: crates/rnote-ui/data/ui/shortcuts.ui:120
 #: crates/rnote-ui/data/ui/shortcuts.ui:126
 msgid "Zoom in"
-msgstr "Aumenta Zoom"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:123
 msgid "Zoom to Page Width"
-msgstr "Adatta Larghezza Pagina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:138
 msgid ""
 "Remove Page.\n"
 "Available in Fixed-Size Document Layout."
 msgstr ""
-"Rimuovi pagina.\n"
-"Disponibile nel layout del documento a dimensione fissa."
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:147
 msgid ""
 "Add Page.\n"
 "Available in Fixed-Size Document Layout."
 msgstr ""
-"Aggiungi pagina.\n"
-"Disponibile nel layout del documento a dimensione fissa."
 
 #: crates/rnote-ui/data/ui/canvasmenu.ui:156
 msgid ""
 "Resize Document to Fit Content.\n"
 "Available in Fixed-Size Document Layout."
 msgstr ""
-"Ridimensiona il documento per adattarlo al contenuto.\n"
-"Disponibile nel layout del documento a dimensione fissa."
 
 #: crates/rnote-ui/data/ui/colorpicker.ui:23
 msgid "Stroke Color"
-msgstr "Colore Tratto"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/colorpicker.ui:30
 msgid "Fill Color"
-msgstr "Colore Riempimento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/filerow.ui:61
 #: crates/rnote-ui/src/dialogs/import.rs:36
 msgid "Open"
-msgstr "Apri"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/filerow.ui:65
 msgid "Open in Default App"
-msgstr "Apri nell'app predefinita"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/filerow.ui:69
 #: crates/rnote-ui/src/workspacebrowser/filerow/actions/rename.rs:91
 msgid "Rename"
-msgstr "Rinomina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/filerow.ui:73
 msgid "Move to Trash"
-msgstr "Sposta Nel Cestino"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/filerow.ui:77
 msgid "Duplicate"
-msgstr "Duplica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/mainheader.ui:23
 #: crates/rnote-ui/src/canvas/mod.rs:594
 msgid "Draft"
-msgstr "Bozza"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/mainheader.ui:40
 #: crates/rnote-ui/data/ui/mainheader.ui:74
 msgid "Show/Hide Sidebar"
-msgstr "Mostra/nascondi barra laterale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/mainheader.ui:47
 #: crates/rnote-ui/data/ui/shortcuts.ui:26
 msgid "New Tab"
-msgstr "Nuova Scheda"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/mainheader.ui:54
 msgid "Focus Mode"
-msgstr "Modalità messa a fuoco"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/mainheader.ui:66
 #: crates/rnote-ui/data/ui/shortcuts.ui:167
 msgid "Save Document"
-msgstr "Salva Documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/overlays.ui:98
 msgid "Move _Left"
-msgstr "Muovi A _Sinistra"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/overlays.ui:102
 msgid "Move _Right"
-msgstr "Muoviti _A Destra"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/overlays.ui:108
 msgid "_Close"
-msgstr "_Chiudi"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penshortcutrow.ui:11
 msgid "Temporary"
-msgstr "Temporaneo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penshortcutrow.ui:12
 msgid "Permanent"
-msgstr "Permanente"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penshortcutrow.ui:13
 msgid "Toggle"
-msgstr "Attiva/disattiva"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/penshortcutrow.ui:14
 msgid "Disabled"
-msgstr "Disabilitato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:41
 #: crates/rnote-ui/data/ui/shortcuts.ui:11
 msgid "General"
-msgstr "Generale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:44
 msgid "Autosave"
-msgstr "Autosalvataggio"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:45
 msgid "Enable or disable autosave"
-msgstr "Abilita o disabilita auto salvataggio"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:50
 msgid "Autosave Interval (secs)"
-msgstr "Intervallo Di Auto Salvataggio (sec)"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:51
 msgid "Set the autosave interval in seconds"
-msgstr "Scegli l'intervallo di auto salvataggio in secondi"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:58
 msgid "Show Scrollbars"
-msgstr "Mostra Le Barre Di Scorrimento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:59
 msgid "Set whether the scrollbars on the canvas are shown"
-msgstr "Imposta se le barre di scorrimento sull'area di disegno sono mostrate"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:64
 msgid "Optimize for E-Paper Displays"
-msgstr "Ottimizza per display E-Paper"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:65
 msgid ""
 "Changes certain UI elements and modifies behaviour\n"
 "of tools for optimized usage on E-Paper displays"
 msgstr ""
-"Cambia alcuni elementi dell'interfaccia utente e modifica il comportamento\n"
-"di strumenti per un utilizzo ottimizzato sui display E-Paper"
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:71
 msgid "Inertial Touch Scrolling"
-msgstr "Scrollare inertiale a tocco"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:72
 msgid ""
@@ -1293,478 +1254,457 @@ msgid ""
 "An application restart is required when this option\n"
 "gets disabled."
 msgstr ""
-"Imposta se lo scorrimento tramite tocco sull'area di disegno è inerziale.\n"
-"È necessario riavviare l'applicazione quando questa opzione\n"
-"viene disabilitato."
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:79
 msgid "Regular Cursor"
-msgstr "Cursore Normale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:80
 msgid "Set the regular cursor"
-msgstr "Scegli il cursore"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:102
 msgid "Show Drawing Cursor"
-msgstr "Mostra cursore di disegno"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:103
 msgid "Set whether the drawing cursor is visible"
-msgstr "Imposta se il cursore di disegno è visibile"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:109
 msgid "Drawing Cursor"
-msgstr "Cursore Della Penna"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:110
 msgid "Set the drawing cursor"
-msgstr "Imposta il cursore da disegno"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:135
 msgid "Page Format"
-msgstr "Formato Della Pagina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:138
 msgid "Format"
-msgstr "Formato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:139
 msgid "Choose a format"
-msgstr "Scegli un formato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:143
 msgid "A6"
-msgstr "A6"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:144
 msgid "A5"
-msgstr "A5"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:145
 msgid "A4"
-msgstr "A4"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:146
 msgid "A3"
-msgstr "A3"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:147
 msgid "A2"
-msgstr "A2"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:148
 msgid "US letter"
-msgstr "Lettera"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:149
 msgid "US legal"
-msgstr "Legale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:150
 msgid "Custom"
-msgstr "Personalizzato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:158
 msgid "Orientation"
-msgstr "Orientamento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:159
 msgid "Set the format orientation"
-msgstr "Imposta l'orientamento del formato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:171
 msgid "Portrait"
-msgstr "Ritratto"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:177
 msgid "Landscape"
-msgstr "Orizzontale"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:187
 msgid "Width"
-msgstr "Larghezza"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:188
 msgid "Set the format width"
-msgstr "Imposta la larghezza del formato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:204
 msgid "Height"
-msgstr "Altezza"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:205
 msgid "Set the format height"
-msgstr "Imposta l'altezza del formato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:221
 msgid "Dpi"
-msgstr "Dpi"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:222
 msgid "Set the Dpi (dots per inch). Defaults to 96."
-msgstr "Imposta il Dpi (punti per pollice). Il valore predefinito è 96."
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:232
 msgid "Revert"
-msgstr "Ritorna"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:254
 #: crates/rnote-ui/data/ui/shortcuts.ui:158
 #: crates/rnote-ui/src/dialogs/mod.rs:631
 msgid "Document"
-msgstr "Documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:257
 msgid "Document Layout"
-msgstr "Layout del documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:261
 msgid "Fixed Size"
-msgstr "Dimensione Fissa"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:262
 msgid "Continuous Vertical"
-msgstr "Verticale Continua"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:263
 msgid "Semi Infinite"
-msgstr "Semi Infinito"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:264
 msgid "Infinite"
-msgstr "Infinito"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:272
 msgid "Format Border Color"
-msgstr "Colore DeI Bordo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:273
 msgid "Set the format border color"
-msgstr "Scegli il colore del bordo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:294
 msgid "Set the background color"
-msgstr "Imposta il colore di sfondo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:314
 msgid "Pattern"
-msgstr "Modello"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:315
 msgid "Choose a background pattern"
-msgstr "Scegli un modello di sfondo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:319
 msgid "None"
-msgstr "Nessuno"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:320
 msgid "Lines"
-msgstr "Linee"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:321
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:429
 msgid "Grid"
-msgstr "Griglia"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:323
 msgid "Isometric Grid"
-msgstr "Griglia Isometrica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:324
 msgid "Isometric Dots"
-msgstr "Punti Isometrici"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:332
 msgid "Pattern Color"
-msgstr "Colore del modello"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:333
 msgid "Set the background pattern color"
-msgstr "Imposta il colore del modello di sfondo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:353
 msgid "Pattern Width"
-msgstr "Larghezza modello"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:354
 msgid "Set the background pattern width"
-msgstr "Imposta la larghezza del modello di sfondo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:370
 msgid "Pattern Height"
-msgstr "Altezza del modello"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:371
 msgid "Set the background pattern height"
-msgstr "Impostare l'altezza del modello di sfondo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:387
 msgid "Invert Color Brightness"
-msgstr "Inverti la luminosità del colore"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:388
 msgid "Invert the brightness of all background pattern colors"
-msgstr "Inverte la luminosità di tutti i colori del motivo di sfondo"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:392
 msgid "Invert"
-msgstr "Inverti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:402
 msgid "Button Shortcuts"
-msgstr "Tasti di scelta rapida"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:405
 msgid "Stylus Primary Button Action"
-msgstr "Tasto Principale Penna"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:406
 msgid ""
 "Set the action for the\n"
 "primary stylus button"
 msgstr ""
-"Imposta l'azione\n"
-"per il tasto principale della penna"
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:418
 msgid "Stylus Secondary Button Action"
-msgstr "Tasto Secondario Della Penna"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:419
 msgid ""
 "Set the action for the\n"
 "secondary stylus button"
 msgstr ""
-"Imposta l'azione\n"
-"per il tasto secondario della penna"
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:431
 msgid "Mouse Secondary Button Action"
-msgstr "Azione Del Tasto Secondario Del Mouse"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:432
 msgid ""
 "Set the action for the\n"
 "secondary mouse button"
 msgstr ""
-"Imposta l'azione\n"
-"per il tasto secondario del mouse"
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:444
 msgid "Touch Two-Finger Long-Press Action"
-msgstr "Pressione Prolungata Con Due Dita"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:445
 msgid ""
 "Set the action for the touch\n"
 "two-finger long-press gesture"
 msgstr ""
-"Imposta l'azione\n"
-"per il gesto di pressione prolungata con due dita"
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:457
 msgid "Keyboard Ctrl-Space Action"
-msgstr "Azione Ctrl-Spazio della tastiera"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:458
 msgid ""
 "Set the action for the keyboard\n"
 "Ctrl plus Space shortcut"
 msgstr ""
-"Imposta l'azione per la tastiera\n"
-"Ctrl più scorciatoia Spazio"
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:470
 msgid "Drawing Pad Button 1 Action"
-msgstr "Tasto 1 Della Tavoletta Grafica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:471
 msgid ""
 "Set the action for button 1\n"
 "on a drawing pad"
 msgstr ""
-"Impostare l'azione per il pulsante 1\n"
-"su un blocco da disegno"
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:483
 msgid "Drawing Pad Button 2 Action"
-msgstr "Tasto 2 Della Tavoletta Grafica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:484
 msgid ""
 "Set the action for button 2\n"
 "on a drawing pad"
 msgstr ""
-"Impostare l'azione per il pulsante 2\n"
-"su un blocco da disegno"
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:496
 msgid "Drawing Pad Button 3 Action"
-msgstr "Tasto 3 Della Tavoletta Grafica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:497
 msgid ""
 "Set the action for button 3\n"
 "on a drawing pad"
 msgstr ""
-"Impostare l'azione per il pulsante 3\n"
-"su un blocco da disegno"
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:509
 msgid "Drawing Pad Button 4 Action"
-msgstr "Tasto 4 Della Tavoletta Grafica"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/settingspanel.ui:510
 msgid ""
 "Set the action for button 4\n"
 "on a drawing pad"
 msgstr ""
-"Impostare l'azione per il pulsante 4\n"
-"su un blocco da disegno"
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:14
 msgid "Show Keyboard Shortcuts"
-msgstr "Mostra Le Scorciatoie Da Tastiera"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:32
 msgid "Close the Active Tab"
-msgstr "Chiudi La Scheda Attiva"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:38
 msgid "Quit the Application"
-msgstr "Esci dall'applicazione"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:44
 msgid "Open the Canvas-Menu"
-msgstr "Apri il menu della tela"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:50
 msgid "Open the App-Menu"
-msgstr "Apri Il Menu Dell' App"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:64
 msgid "Navigation"
-msgstr "Navigazione"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:67
 msgid "Switch to the 'Brush'"
-msgstr "Passa al 'Pennello'"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:73
 msgid "Switch to the 'Shaper'"
-msgstr "Passa alla 'Forma'"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:79
 msgid "Switch to the 'Typewriter'"
-msgstr "Passa alla 'Testo'"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:85
 msgid "Switch to the 'Eraser'"
-msgstr "Passa alla 'Gomma'"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:91
 msgid "Switch to the 'Selector'"
-msgstr "Passa al 'Selettore'"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:97
 msgid "Switch to the 'Tools'"
-msgstr "Passa agli 'Strumenti'"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:105
 msgid "View"
-msgstr "Vista"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:109
 msgid "Alt + Drag"
-msgstr "Alt + Trascina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:150
 msgid "Zoom in/out"
-msgstr "Aumenta/Diminuisci Zoom"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:151
 msgid "Alt + Shift + Drag"
-msgstr "Alt + Shift + Trascina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:161
 msgid "Open Document"
-msgstr "Apri Documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:173
 #: crates/rnote-ui/src/dialogs/export.rs:40
 msgid "Save Document As"
-msgstr "Salva Documento Come"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:179
 msgid "Snap Positions"
-msgstr "Posizioni Snap"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:191
 msgid "Add Page (When in Fixed-Size Layout)"
-msgstr "Aggiungi pagina (nel layout a dimensione fissa)"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:197
 msgid "Remove Last Page (When in Fixed-Size Layout)"
-msgstr "Rimuovi l'ultima pagina (nel layout a dimensione fissa)"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:203
 msgid "Print Document"
-msgstr "Stampa Documento"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:209
 #: crates/rnote-ui/src/dialogs/import.rs:92
 msgid "Import File"
-msgstr "Importa File"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:215
 msgid "Drawing"
-msgstr "Disegno"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:218
 msgid "Copy to Clipboard"
-msgstr "Copia negli Appunti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:224
 msgid "Cut to Clipboard"
-msgstr "Taglia negli Appunti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:230
 msgid "Paste Clipboard"
-msgstr "Incolla Appunti"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:242
 msgid "Undo"
-msgstr "Disfare"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/shortcuts.ui:248
 msgid "Redo"
-msgstr "Ripristina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/sidebar.ui:50
 msgid "Workspace"
-msgstr "Area di lavoro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/sidebar.ui:61
 msgid "Settings"
-msgstr "Impostazioni"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/strokecontentpreview.ui:79
 msgid "Page"
-msgstr "pagina"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/workspacebrowser.ui:64
 msgid "Move Directory up"
-msgstr "Vai alla cartella superiore"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/workspacebrowser.ui:81
 msgid "Workspace Directory Actions"
-msgstr "Azioni Dell'Area Di Lavoro"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/workspacebrowser.ui:163
 msgid "Create new Folder"
-msgstr "Crea nuova Cartella"
+msgstr ""
 
 #: crates/rnote-ui/src/appwindow/actions.rs:573
 #: crates/rnote-ui/src/appwindow/imp.rs:313
@@ -1773,1267 +1713,785 @@ msgstr "Crea nuova Cartella"
 #: crates/rnote-ui/src/dialogs/mod.rs:248
 #: crates/rnote-ui/src/dialogs/mod.rs:401
 msgid "Saving document failed"
-msgstr "Salvataggio del documento fallito"
+msgstr ""
 
 #: crates/rnote-ui/src/appwindow/actions.rs:636
 msgid "Printing document failed"
-msgstr "Stampa del documento fallita"
+msgstr ""
 
 #: crates/rnote-ui/src/appwindow/actions.rs:672
 msgid "Exporting selection failed, nothing selected"
-msgstr "Esportazione della selezione fallita, non si è selezionato nulla"
+msgstr ""
 
 #: crates/rnote-ui/src/appwindow/imp.rs:268
 msgid "Saves are in progress, waiting before closing.."
-msgstr "Salvataggio in corso, in attesa prima della chiusura."
+msgstr ""
 
 #: crates/rnote-ui/src/appwindow/imp.rs:336
 msgid "Button 1"
-msgstr "Pulsante 1"
+msgstr ""
 
 #: crates/rnote-ui/src/appwindow/imp.rs:343
 msgid "Button 2"
-msgstr "Pulsante 2"
+msgstr ""
 
 #: crates/rnote-ui/src/appwindow/imp.rs:350
 msgid "Button 3"
-msgstr "Pulsante 3"
+msgstr ""
 
 #: crates/rnote-ui/src/appwindow/imp.rs:357
 msgid "Button 4"
-msgstr "Pulsante 4"
+msgstr ""
 
 #: crates/rnote-ui/src/appwindow/mod.rs:141
 msgid ""
 "Settings schema is not installed. App settings could not be loaded and won't "
 "be saved."
 msgstr ""
-"Lo schema delle impostazioni non è installato. Le impostazioni dell'app non "
-"possono essere caricate e non verranno salvate."
 
 #: crates/rnote-ui/src/appwindow/mod.rs:520
 msgid "Opening file failed"
-msgstr "Apertura file fallita"
+msgstr ""
 
 #: crates/rnote-ui/src/canvas/mod.rs:858 crates/rnote-ui/src/dialogs/mod.rs:195
 #: crates/rnote-ui/src/dialogs/mod.rs:331
 msgid "- invalid file name -"
-msgstr "- nome del file invalido -"
+msgstr ""
 
 #: crates/rnote-ui/src/canvas/mod.rs:871
 msgid "- invalid folder path -"
-msgstr "- percorso della cartella invalido -"
+msgstr ""
 
 #: crates/rnote-ui/src/canvas/mod.rs:895
 msgid "Opened file was modified on disk"
-msgstr "Il file aperto è stato modificato sul disco"
+msgstr ""
 
 #: crates/rnote-ui/src/canvas/mod.rs:896
 msgid "Reload"
-msgstr "Ricarica"
+msgstr ""
 
 #: crates/rnote-ui/src/canvas/mod.rs:903
 msgid "Reloading .rnote file from disk failed"
-msgstr "Ricaricamento del file .rnote fallito"
+msgstr ""
 
 #: crates/rnote-ui/src/canvas/mod.rs:969
 msgid "Opened file was renamed or moved."
-msgstr "Il file aperto è stato rinominato o spostato."
+msgstr ""
 
 #: crates/rnote-ui/src/canvas/mod.rs:983
 msgid "Opened file was removed."
-msgstr "Il file aperto è stato rimosso."
+msgstr ""
 
 #: crates/rnote-ui/src/canvas/mod.rs:1169
 msgid "Inserting file failed"
-msgstr "Inserimento file non riuscito"
+msgstr ""
 
 #: crates/rnote-ui/src/canvas/mod.rs:1179
 msgid "Inserting text failed"
-msgstr "Inserimento del testo non riuscito"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:33
 #: crates/rnote-ui/src/dialogs/import.rs:28
 msgid ".rnote"
-msgstr ".rnote"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:66
 msgid "Saved document successfully"
-msgstr "Documento salvato con successo"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:243
 #: crates/rnote-ui/src/dialogs/export.rs:256
 #: crates/rnote-ui/src/dialogs/export.rs:586
 #: crates/rnote-ui/src/dialogs/export.rs:882
 msgid "Exporting document failed"
-msgstr "Esportazione del documento fallita"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:247
 msgid "Exported document successfully"
-msgstr "Esportazione del documento avvenuta correttamente"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:248
 #: crates/rnote-ui/src/dialogs/export.rs:582
 #: crates/rnote-ui/src/dialogs/export.rs:874
 msgid "View in file manager"
-msgstr "Visualizza nel file manager"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:262
 #: crates/rnote-ui/src/dialogs/export.rs:592
 #: crates/rnote-ui/src/dialogs/export.rs:888
 msgid "Failed to open the file in the file manager"
-msgstr "Impossibile aprire il file nel file manager"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:272
 msgid "Exporting document failed, no file selected"
-msgstr "Esportazione del documento fallita, nessun file è stato selezionato"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:287
 #: crates/rnote-ui/src/dialogs/export.rs:617
 #: crates/rnote-ui/src/dialogs/export.rs:935
 #: crates/rnote-ui/src/dialogs/mod.rs:504
 msgid "Select"
-msgstr "Seleziona"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:577
 msgid "Exporting document pages failed"
-msgstr "Esportazione delle pagine del documento fallita"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:581
 msgid "Exported document pages successfully"
-msgstr "Il documento è stato esportato correttamente"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:601
 msgid "Exporting document pages failed, no directory selected"
 msgstr ""
-"Esportazione delle pagine del documento fallita, nessuna cartella è stata "
-"selezionata"
 
 #: crates/rnote-ui/src/dialogs/export.rs:859
 msgid "Exporting selection failed, no file selected"
-msgstr "Esportazione della selezione fallita, nessun file è stato selezionato"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:869
 msgid "Exporting selection failed"
-msgstr "Esportazione della selezione fallita"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:873
 msgid "Exported selection successfully"
-msgstr "Selezione esportata correttamente"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:1011
 #: crates/rnote-ui/src/dialogs/export.rs:1074
 msgid "Json"
-msgstr "Json"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:1023
 msgid "Export Engine State"
-msgstr "Esporta 'Engine State'"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:1042
 msgid "Exporting engine state failed"
-msgstr "Esportazione 'engine state' fallita"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:1046
 msgid "Exported engine state successfully"
-msgstr "Esportazione 'engine state' avvenuta con successo"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:1086
 msgid "Export Engine Config"
-msgstr "Esporta 'Engine Config'"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:1105
 msgid "Exporting engine config failed"
-msgstr "Esportazione 'engine config' fallita"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/export.rs:1109
 msgid "Exported engine config successfully"
-msgstr "Esportazione 'engine config' avvenuta con successo"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:34
 msgid "Open File"
-msgstr "Apri File"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:86
 msgid "Jpg, Pdf, Png, Svg, Xopp, Txt"
-msgstr "Jpg, Pdf, Png, Svg, Xopp, Txt"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:239
 msgid "- no file name -"
-msgstr "- nessun nome file -"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:244
 msgid "- no title -"
-msgstr "- senza titolo -"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:247
 msgid "- no author -"
-msgstr "- nessun autore -"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:251
 msgid "- no date -"
-msgstr "- nessuna data -"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:258
 msgid "File name:"
-msgstr "Nome file:"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:262
 msgid "Title:"
-msgstr "Titolo:"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:266
 msgid "Author:"
-msgstr "Autore:"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:270
 msgid "Modification date:"
-msgstr "Data di modifica:"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/import.rs:274
 msgid "Pages:"
-msgstr "Pagine:"
+msgstr ""
 
 #. TRANSLATORS: 'Name <email@domain.com>' or 'Name https://website.example'
 #: crates/rnote-ui/src/dialogs/mod.rs:40
 msgid "translator-credits"
-msgstr "Albano Battistella <albano_battistella@hotmail.com>"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:202
 #: crates/rnote-ui/src/dialogs/mod.rs:338
 msgid "- invalid save folder name -"
-msgstr "- nome di salva cartella invalido -"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:218
 #: crates/rnote-ui/src/dialogs/mod.rs:353
 msgid "The changes will be saved"
-msgstr "I cambiamenti saranno salvati"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:223
 #: crates/rnote-ui/src/dialogs/mod.rs:358
 msgid "A new file will be created"
-msgstr "Un nuovo file verra creato"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:502
 msgid "Change Workspace Directory"
-msgstr "Cambia Cartella Dell'area Di Lavoro"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:618
 msgid "Band-Aid"
-msgstr "Cerotto"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:619
 msgid "Bank"
-msgstr "Banca"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:620
 msgid "Bookmark"
-msgstr "Segnalibro"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:621
 msgid "Book"
-msgstr "Libro"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:622
 msgid "Bread"
-msgstr "Pane"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:623
 msgid "Calendar"
-msgstr "Calendario"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:624
 msgid "Camera"
-msgstr "Camera"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:625
 msgctxt "as in computer chip"
 msgid "Chip"
-msgstr "Chip"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:626
 msgid "Clock"
-msgstr "Orologio"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:627
 msgid "Code"
-msgstr "Codice"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:628
 msgid "Compose"
-msgstr "Componi"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:629
 msgctxt "as in plant"
 msgid "Crop"
-msgstr "Ritaglia"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:630
 msgid "Dictionary"
-msgstr "Dizionario"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:632
 msgid "Drinks"
-msgstr "Bevande"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:633
 msgid "Flag"
-msgstr "Bandiera"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:634
 msgid "Folder"
-msgstr "Cartella"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:635
 msgid "Footprints"
-msgstr "Impronte"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:636
 msgid "Gamepad"
-msgstr "Gamepad"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:637
 msgid "Gear"
-msgstr "Ingranaggio"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:638
 msgid "Globe"
-msgstr "Sfera"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:639
 msgid "Hammer"
-msgstr "Martello"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:640
 msgid "Heart"
-msgstr "Cuore"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:641
 msgid "Hourglass"
-msgstr "Clessidra"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:642
 msgid "Key"
-msgstr "Chiave"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:643
 msgid "Language"
-msgstr "Lingua"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:644
 msgid "Library"
-msgstr "Libreria"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:645
 msgid "Lightbulb"
-msgstr "Lampadina"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:646
 msgid "Mathematics"
-msgstr "Matematica"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:647
 msgid "Meeting"
-msgstr "Riunione"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:648
 msgid "Money"
-msgstr "Soldi"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:649
 msgid "Musical Note"
-msgstr "Nota Musicale"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:650
 msgid "Nature"
-msgstr "Natura"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:651
 msgid "Open Book"
-msgstr "Apri libro"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:652
 msgid "Paintbrush"
-msgstr "Pennello"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:653
 msgid "Pencil and Paper"
-msgstr "Matita e Carta"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:654
 msgid "People"
-msgstr "Persone"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:655
 msgid "Person"
-msgstr "Persona"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:656
 msgid "Projector"
-msgstr "Proiettore"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:657
 msgid "Science"
-msgstr "Scienza"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:658
 msgid "Scratchpad"
-msgstr "Blocco per appunti"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:659
 msgid "Shapes"
-msgstr "Forme"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:660
 msgid "Shopping"
-msgstr "Shopping"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:661
 msgid "Speech Bubble"
-msgstr "Nuvoletta"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:662
 msgid "Speedometer"
-msgstr "Tachimetro"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:663
 msgid "Star"
-msgstr "Stella"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:665
 msgctxt "as in terminal software"
 msgid "Terminal"
-msgstr "Terminale"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:667
 msgid "Text"
-msgstr "Testo"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:668
 msgid "Travel"
-msgstr "Viaggio"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:669
 msgid "Weather"
-msgstr "Tempo Atmosferico"
+msgstr ""
 
 #: crates/rnote-ui/src/dialogs/mod.rs:670
 msgid "Weight"
-msgstr "Peso"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:387
 msgid "Miscellaneous"
-msgstr "Varie"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:396
 msgid "Coordinate Systems"
-msgstr "Sistemi di coordinate"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:404
 msgid "Ellipses"
-msgstr "Ellissi"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:411
 msgid "Curves & Paths"
-msgstr "Curve & Percorsi"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:426
 msgid "Arrow"
-msgstr "Freccia"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:427
 msgid "Line"
-msgstr "Linea"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:428
 msgid "Rectangle"
-msgstr "Rettangolo"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:430
 msgid "2D coordinate system"
-msgstr "Sistema di coordinate 2D"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:431
 msgid "3D coordinate system"
-msgstr "Sistema di coordinate 3D"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:432
 msgid "2D single quadrant coordinate system"
-msgstr "Sistema di coordinate 2D a singolo quadrante"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:433
 msgid "Ellipse"
-msgstr "Ellisse"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:434
 msgid "Ellipse with foci"
-msgstr "Ellisse con i fuochi"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:435
 msgid "Quadratic bezier curve"
-msgstr "Curva di Bézier quadratica"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:436
 msgid "Cubic bezier curve"
-msgstr "Curva di Bézier cubica"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:437
 msgid "Polyline"
-msgstr "Polilinea"
+msgstr ""
 
 #: crates/rnote-ui/src/penssidebar/shaperpage.rs:438
 msgid "Polygon"
-msgstr "Poligono"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:571
 msgid "Application restart is required"
-msgstr "Riavvio di applicazione necessario"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:887
 msgctxt "a cursor type"
 msgid "Crosshair (Small)"
-msgstr "Mirino (piccolo)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:888
 msgctxt "a cursor type"
 msgid "Crosshair (Medium)"
-msgstr "Mirino (medio)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:889
 msgctxt "a cursor type"
 msgid "Crosshair (Large)"
-msgstr "Mirino (grande)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:890
 msgctxt "a cursor type"
 msgid "Dot (Small)"
-msgstr "Punto (piccolo)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:891
 msgctxt "a cursor type"
 msgid "Dot (Medium)"
-msgstr "Punto (medio)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:892
 msgctxt "a cursor type"
 msgid "Dot (Large)"
-msgstr "Punto (grande)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:893
 msgctxt "a cursor type"
 msgid "Teardrop North-West (Small)"
-msgstr "A Goccia Nord-Ovest (piccolo)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:894
 msgctxt "a cursor type"
 msgid "Teardrop North-West (Medium)"
-msgstr "A Goccia Nord-Ovest (medio)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:895
 msgctxt "a cursor type"
 msgid "Teardrop North-West (Large)"
-msgstr "A Goccia Nord-Ovest (grande)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:896
 msgctxt "a cursor type"
 msgid "Teardrop North-East (Small)"
-msgstr "A Goccia Nord-Est (piccolo)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:897
 msgctxt "a cursor type"
 msgid "Teardrop North-East (Medium)"
-msgstr "A Goccia Nord-Est (medio)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:898
 msgctxt "a cursor type"
 msgid "Teardrop North-East (Large)"
-msgstr "A Goccia Nord-Est (grande)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:899
 msgctxt "a cursor type"
 msgid "Teardrop North (Small)"
-msgstr "A Goccia Nord (piccolo)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:900
 msgctxt "a cursor type"
 msgid "Teardrop North (Medium)"
-msgstr "A Goccia Nord (medio)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:901
 msgctxt "a cursor type"
 msgid "Teardrop North (Large)"
-msgstr "A Goccia Nord (grande)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:902
 msgctxt "a cursor type"
 msgid "Beam (Small)"
-msgstr "Fascia (piccolo)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:903
 msgctxt "a cursor type"
 msgid "Beam (Medium)"
-msgstr "Fascia (medio)"
+msgstr ""
 
 #: crates/rnote-ui/src/settingspanel/mod.rs:904
 msgctxt "a cursor type"
 msgid "Beam (Large)"
-msgstr "Fascia (grande)"
+msgstr ""
 
 #: crates/rnote-ui/src/workspacebrowser/filerow/actions/duplicate.rs:35
 msgid "Can't duplicate an unsaved document"
-msgstr "Impossibile duplicare un documento non salvato"
+msgstr ""
 
 #: crates/rnote-ui/src/workspacebrowser/filerow/actions/duplicate.rs:45
 msgid "Duplicating the file failed"
-msgstr "Duplicazione del file non riuscita"
+msgstr ""
 
 #: crates/rnote-ui/src/workspacebrowser/filerow/actions/duplicate.rs:51
 msgid "Duplicating the directory failed"
-msgstr "Duplicazione della directory non riuscita"
+msgstr ""
 
 #: crates/rnote-ui/src/workspacebrowser/filerow/actions/open_in_default_app.rs:18
 msgid "Open the file in the default app failed"
-msgstr "L'apertura del file nell'app predefinita non è riuscita"
+msgstr ""
 
 #: crates/rnote-ui/src/workspacebrowser/filerow/actions/rename.rs:39
 msgid "Renaming file failed, target file already exists"
-msgstr "Rinomina del file non riuscita, il file di destinazione esiste già"
+msgstr ""
 
 #: crates/rnote-ui/src/workspacebrowser/filerow/actions/rename.rs:46
 msgid "Renaming file failed"
-msgstr "Rinominazione del file non riuscita"
+msgstr ""
 
 #: crates/rnote-ui/src/workspacebrowser/filerow/actions/trash.rs:20
 msgid "Trashing file failed"
-msgstr "Cestinazione file non riuscito"
+msgstr ""
 
 #: crates/rnote-ui/src/workspacebrowser/workspaceactions/createfolder.rs:67
 msgid "Folder Name"
-msgstr "Nome Cartella"
+msgstr ""
 
 #: crates/rnote-ui/src/workspacebrowser/workspaceactions/createfolder.rs:75
 msgid "New Folder"
-msgstr "Nuova Cartella"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:159
 msgctxt "used in string representation of the current selected color"
 msgid "grey"
-msgstr "grigio"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:161 crates/rnote-ui/src/utils.rs:196
 msgctxt "part of string representation of a color"
 msgid "rose"
-msgstr "rosa"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:163
 msgctxt "part of string representation of a color"
 msgid "red"
-msgstr "rosso"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:166
 msgctxt "part of string representation of a color"
 msgid "orange"
-msgstr "arancio"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:169
 msgctxt "part of string representation of a color"
 msgid "yellow"
-msgstr "giallo"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:173
 msgctxt "part of string representation of a color"
 msgid "chartreuse-green"
-msgstr "verde-certosa"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:176
 msgctxt "part of string representation of a color"
 msgid "green"
-msgstr "verde"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:179
 msgctxt "part of string representation of a color"
 msgid "spring-green"
-msgstr "verde-primavera"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:182
 msgctxt "part of string representation of a color"
 msgid "cyan"
-msgstr "ciano"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:185
 msgctxt "part of string representation of a color"
 msgid "azure"
-msgstr "azzurro"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:188
 msgctxt "part of string representation of a color"
 msgid "blue"
-msgstr "blu"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:191
 msgctxt "part of string representation of a color"
 msgid "violet"
-msgstr "viola"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:194
 msgctxt "part of string representation of a color"
 msgid "magenta"
-msgstr "magenta"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:201
 msgctxt "part of string representation of a color"
 msgid "greyish"
-msgstr "grigiastro"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:204
 msgctxt "part of string representation of a color"
 msgid "vivid"
-msgstr "vivido"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:208
 msgctxt "part of string representation of a color"
 msgid "very-dark"
-msgstr "molto scuro"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:210
 msgctxt "part of string representation of a color"
 msgid "dark"
-msgstr "scuro"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:213
 msgctxt "part of string representation of a color"
 msgid "mid"
-msgstr "blu cobalto"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:215
 msgctxt "part of string representation of a color"
 msgid "bright"
-msgstr "acceso"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:219
 msgctxt "part of string representation of a color"
 msgid "transparent"
-msgstr "trasparente"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:221
 msgctxt "part of string representation of a color"
 msgid "translucent"
-msgstr "traslucido"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:225
 msgctxt "part of string representation of a color"
 msgid "slightly-translucent"
-msgstr "leggermente traslucido"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:234
 msgctxt "part of string representation of a color"
 msgid "fully transparent"
-msgstr "completamente trasparente"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:237
 msgctxt "part of string representation of a color"
 msgid "black"
-msgstr "nero"
+msgstr ""
 
 #: crates/rnote-ui/src/utils.rs:239
 msgctxt "part of string representation of a color"
 msgid "white"
-msgstr "bianco"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:273
 msgid "is password protected"
-msgstr "è protetto da password"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:276
 msgid "Encrypted PDF"
-msgstr "PDF Criptato"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:279
 msgid "_Cancel"
-msgstr "_Annulla"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:280
 msgid "_Unlock"
-msgstr "_Sblocca"
+msgstr ""
 
 #: crates/rnote-ui/data/ui/dialogs/import.ui:287
 msgid "Enter the PDF password"
-msgstr "Inserire la password del PDF"
-
-#~ msgid "Opened file was moved or deleted on disk"
-#~ msgstr "Il file aperto è stato spostato o cancellato"
-
-#~ msgid "Lecture Note 1"
-#~ msgstr "Appunti Lezione 1"
-
-#~ msgid "A Pdf annotation"
-#~ msgstr "Un'annotazione Pdf"
-
-#~ msgid "Lecture Note 2"
-#~ msgstr "Appunti Lezione 2"
-
-#~ msgid "Close the Folded Flap"
-#~ msgstr "Nascondi Sidebar"
-
-#~ msgid "Remove Page"
-#~ msgstr "Rimuovi pagina"
-
-#~ msgid "Add Page"
-#~ msgstr "Aggiungi Pagina"
-
-#~ msgid "Resize Document to Fit Strokes"
-#~ msgstr "Ridimensiona Il Documento Per Adattarlo Ai Tratti"
-
-#~ msgid ""
-#~ "Opening this file overwrites any unsaved changes. Do you want to save the "
-#~ "current document?"
-#~ msgstr ""
-#~ "L'apertura di questo file sovrascrive tutte le modifiche non salvate.Vuoi "
-#~ "salvare il documento corrente?"
-
-#~ msgid "Opening vector image file failed"
-#~ msgstr "Apertura del file immagine vettoriale fallita"
-
-#~ msgid "Opening bitmap image file failed"
-#~ msgstr "Apertura del file immagine bitmap fallita"
-
-#~ msgid "Opening Xournal++ file failed"
-#~ msgstr "Apertura file Xournal++ fallita"
-
-#~ msgid "Opening Pdf file failed"
-#~ msgstr "Apertura del file Pdf fallita"
-
-#~ msgid "Failed to open file, tried to open folder as file"
-#~ msgstr ""
-#~ "Apertura del file fallita: si è provato ad aprire la cartella come file"
-
-#~ msgid "- unable to find a valid save folder -"
-#~ msgstr "- non si riesce a trovare una cartella di salvataggio valida -"
-
-#~ msgid "Document Background"
-#~ msgstr "Sfondo Del Documento"
-
-#~ msgid ""
-#~ "Font Chooser\n"
-#~ "(double-click, click on select\n"
-#~ "or press Enter to select a new font)"
-#~ msgstr ""
-#~ "Scelta Del Font\n"
-#~ "(seleziona per vedere l'anteprima,\n"
-#~ "doppio click o invio per selezionare)"
-
-#~ msgid "Main window in light colors"
-#~ msgstr "Finestra principale dai colori chiari"
-
-#~ msgid "Printed document successfully"
-#~ msgstr "Stampa avvenuta correttamente"
-
-#~ msgid "perm."
-#~ msgstr "perm."
-
-#~ msgid "Offset the Camera"
-#~ msgstr "Sposta la Visuale"
-
-#~ msgctxt "shortcut window"
-#~ msgid "General"
-#~ msgstr "Generale"
-
-#, fuzzy
-#~| msgid "Toggle fullscreen"
-#~ msgctxt "shortcut window"
-#~ msgid "Toggle Fullscreen"
-#~ msgstr "Attiva schermo intero"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Zoom in"
-#~ msgstr "Ingrandire"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Zoom out"
-#~ msgstr "Rimpicciolire"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Document"
-#~ msgstr "Documento"
-
-#~ msgctxt "shortcut window"
-#~ msgid "New Document"
-#~ msgstr "Nuovo Documento"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Save Document"
-#~ msgstr "Salva Documento"
-
-#, fuzzy
-#~| msgctxt "shortcut window"
-#~| msgid "Save document as"
-#~ msgctxt "shortcut window"
-#~ msgid "Save Document As"
-#~ msgstr "Salva documento come"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Clear Document"
-#~ msgstr "Pulisci Documento"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Import File"
-#~ msgstr "Importa File"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Duplicate Selection"
-#~ msgstr "Duplica Selezione"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Undo"
-#~ msgstr "Annulla"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Redo"
-#~ msgstr "Ripristina"
-
-#~ msgid "Math"
-#~ msgstr "Matematica"
-
-#~ msgid "Main window in dark colors"
-#~ msgstr "Finestra principale dai colori scuri"
-
-#~ msgid "Export document"
-#~ msgstr "Esporta documento"
-
-#~ msgid "Export selection"
-#~ msgstr "Esporta selezione"
-
-#~ msgid "Export _document"
-#~ msgstr "Esporta _documento"
-
-#~ msgid "Export _selection"
-#~ msgstr "Esporta _selezione"
-
-#~ msgid "New document"
-#~ msgstr "Nuovo documento"
-
-#~ msgid "Close all _other tabs"
-#~ msgstr "Chiudi tutte le _altre schede"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Toggle fullscreen"
-#~ msgstr "Attiva a schermo intero"
-
-#~ msgctxt "shortcut window"
-#~ msgid "New document"
-#~ msgstr "Nuovo documento"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Save document"
-#~ msgstr "Salva documento"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Clear document"
-#~ msgstr "Pulisci documento"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Duplicate selection"
-#~ msgstr "Duplica la selezione"
-
-#~ msgid "JSON"
-#~ msgstr "JSON"
-
-#~ msgid "Open file"
-#~ msgstr "Apri file"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Close the active window"
-#~ msgstr "Chiudi la finestra attiva"
-
-#~ msgid "Permanently hidden scrollbars"
-#~ msgstr "Barre di scorrimento nascoste"
-
-#, fuzzy
-#~| msgctxt "shortcut window"
-#~| msgid "Close the active window"
-#~ msgid "Close the application window"
-#~ msgstr "Chiudi la finestra attiva"
-
-#, fuzzy
-#~| msgid "Change workspace directory"
-#~ msgid ""
-#~ "Change workspace\n"
-#~ "                              directory"
-#~ msgstr "Cambia cartella dell'area di lavoro"
-
-#~ msgid "Quit Application"
-#~ msgstr "Esci dall'applicazione"
-
-#~ msgid ""
-#~ "Any unsaved changes will be lost. Do you want to save the current "
-#~ "document?"
-#~ msgstr ""
-#~ "Eventuali modifiche non salvate andranno perse. Vuoi salvare il documento "
-#~ "corrente?"
-
-#~ msgid "_Copy to clipboard"
-#~ msgstr "_Copia negli appunti"
-
-#~ msgid "C_ut to clipboard"
-#~ msgstr "_Taglia negli appunti"
-
-#~ msgid "_Paste clipboard"
-#~ msgstr "_Incolla gli appunti"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Copy into clipboard"
-#~ msgstr "Copia negli appunti"
-
-#~ msgid "_Clear document"
-#~ msgstr "_Pulisci documento"
-
-#~ msgid "The radii of the individual dots in the textured stroke"
-#~ msgstr ""
-#~ "Scegli il raggio dei singoli punti componenti il tratto testurizzato"
-
-#~ msgid "Roughness"
-#~ msgstr "Ruvidità"
-
-#~ msgid ""
-#~ "Indicating how rough the drawing is. 0.0 is a smooth line. Defaults to 1.0"
-#~ msgstr ""
-#~ "Indica quanto è ruvido il disegno. 0,0 è una linea liscia. Il valore "
-#~ "predefinito è 1,0"
-
-#~ msgid "Bowing"
-#~ msgstr "Curvatura"
-
-#~ msgid ""
-#~ "How curvy the lines are when drawing a rough shape. 0.0 is a straight "
-#~ "line. Defaults to 1.0"
-#~ msgstr ""
-#~ "Quanto sono curve le linee quando si disegna una forma approssimativa. "
-#~ "0.0 è una linea retta. Predefinito a 1.0"
-
-#~ msgid "Curve step count"
-#~ msgstr "Conteggio passi curva"
-
-#~ msgid "How many steps make up a curve. Defaults to 12"
-#~ msgstr "Quanti passi compongono una curva. Il valore predefinito è 12"
-
-#~ msgid "Multistroke"
-#~ msgstr "Multitratto"
-
-#~ msgid "Multiple stroke generation for a sketched look. Defaults to true"
-#~ msgstr ""
-#~ "Generazione di tratti multipli per un aspetto abbozzato. L'impostazione "
-#~ "predefinita è true"
-
-#~ msgid "Selecting apiece"
-#~ msgstr "Selezione singola"
-
-#~ msgid "Xopp, PNG, SVG, JPG, PDF"
-#~ msgstr "Xopp ,PNG,SVG,JPG ,PDF"
-
-#~ msgid "Drag stroke elements based on proximity"
-#~ msgstr "Trascina gli elementi del tratto in base alla vicinanza"
-
-#~ msgid "New Directory name"
-#~ msgstr "Nuovo nome della cartella"
-
-#~ msgid "Paste from Clipboard"
-#~ msgstr "Incolla dagli appunti"
-
-#~ msgid "New"
-#~ msgstr "Nuovo"
-
-#, fuzzy
-#~| msgid ""
-#~| "Set the scalefactor of the bitmap image in relation\n"
-#~| "to the actual size on the document"
-#~ msgid ""
-#~ "Set the scale factor of the bitmap image in relation\n"
-#~ "to the actual size on the document"
-#~ msgstr ""
-#~ "Impostare il fattore di scala dell'immagine bitmap in relazione\n"
-#~ "alle dimensioni effettive del documento"
-
-#~ msgid ".rnote file"
-#~ msgstr "file .rnote"
-
-#~ msgid "Opening .xopp file failed."
-#~ msgstr "Apertura file .xopp fallita."
-
-#~ msgid ".rnote / .xopp File"
-#~ msgstr ".rnote / File .xopp"
-
-#~ msgid "Select export file"
-#~ msgstr "Selezionare il file da esportare"
-
-#~ msgid "Export selection as SVG"
-#~ msgstr "Esporta selezione come SVG"
-
-#~ msgid "Export selection as PNG"
-#~ msgstr "Esporta selezione come PNG"
-
-#~ msgid "Export document as PDF"
-#~ msgstr "Esporta documento come PDF"
-
-#~ msgid "Export document as Xournal++ .xopp"
-#~ msgstr "Esporta documento come Xournal++ .xopp"
-
-#~ msgid "SVG file"
-#~ msgstr "File SVG"
-
-#~ msgid "PNG file"
-#~ msgstr "File PNG"
-
-#~ msgid "Export selection as PNG failed."
-#~ msgstr "Esportazione della selezione come PNG fallita."
-
-#~ msgid "Exported selection as PNG successfully."
-#~ msgstr "Avvenuta esportazione della selezione come PNG."
-
-#~ msgid "PDF file"
-#~ msgstr "File PDF"
-
-#~ msgid "Export document as PDF failed."
-#~ msgstr "Esportazione del documento come PDF fallita."
-
-#~ msgid "Exported document as PDF successfully."
-#~ msgstr "Avvenuta esportazione del documento come PNG."
-
-#~ msgid ".xopp file"
-#~ msgstr "File .xopp"
-
-#~ msgid "Exporting document as .xopp failed."
-#~ msgstr "Esportazione del documento come .xopp fallita."
-
-#~ msgid "Exported document as .xopp successfully."
-#~ msgstr "Avvenuta esportazione del documento come .xopp."
-
-#~ msgid ""
-#~ "Creating a new document will erase any unsaved changes. Do you want to "
-#~ "save the current document?"
-#~ msgstr ""
-#~ "La creazione di un nuovo documento cancella tutte le modifiche non "
-#~ "salvate. Vuoi salvare il documento corrente?"
-
-#~ msgid "Set whether the scrollbars on the canvas are hidden permanently."
-#~ msgstr ""
-#~ "Imposta se le barre di scorrimento sull'area di disegno sono nascoste in "
-#~ "modo permanente."
-
-#~ msgid "Save current document as"
-#~ msgstr "Salva"
-
-#~ msgid "Quit"
-#~ msgstr "Non salvare"
-
-#~ msgid "Name"
-#~ msgstr "Nome"
-
-#~ msgid "Change the workspace name"
-#~ msgstr "Cambia il nome dell'area di lavoro"
-
-#~ msgid "A simple drawing application to create handwritten notes"
-#~ msgstr "Una semplice applicazione di disegno per creare note scritte a mano"
-
-#~ msgid "Developer settings"
-#~ msgstr "Impostazioni sviluppatore"
-
-#~ msgid "Renderer backend"
-#~ msgstr "Rendering di backend"
-
-#~ msgid "Expand mode"
-#~ msgstr "Modalità espansione"
-
-#~ msgid "Clear sheet"
-#~ msgstr "Pulisci foglio"
-
-#~ msgid "Export .."
-#~ msgstr "Esporta .."
-
-#~ msgid "Clear Sheet"
-#~ msgstr "Pulisci Foglio"
-
-#~ msgid "Undo last stroke"
-#~ msgstr "Annulla l'ultimo tratto"
-
-#~ msgid "Redo last stroke"
-#~ msgstr "Rifai ultimo tratto"
-
-#~ msgid "Sheet Format"
-#~ msgstr "Formato foglio"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Sheet"
-#~ msgstr "Foglio"
-
-#~ msgctxt "shortcut window"
-#~ msgid "New sheet"
-#~ msgstr "Nuovo foglio"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Open sheet"
-#~ msgstr "Apri foglio"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Save sheet"
-#~ msgstr "Salva foglio"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Save sheet as"
-#~ msgstr "Salva foglio come"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Clear sheet"
-#~ msgstr "Pulisci foglio"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Print sheet"
-#~ msgstr "Stampa foglio"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Delete current selection"
-#~ msgstr "Elimina selezione corrente"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Duplicate current selection"
-#~ msgstr "Duplica selezione corrente"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Select all strokes"
-#~ msgstr "Seleziona tutti i tratti"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Deselect all strokes"
-#~ msgstr "Deleziona tutti i tratti"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Enable temporary Eraser"
-#~ msgstr "Abilita gomma temporanea"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Undo last stroke"
-#~ msgstr "Annulla ultimo tratto"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Redo last stroke"
-#~ msgstr "Rifai l'ultimo tratto"
-
-#~ msgid "Brush styles configuration"
-#~ msgstr "Configurazione stili pennello"
-
-#~ msgid "Dot Radii"
-#~ msgstr "Raggio punto"
-
-#~ msgid "The radii of the dots"
-#~ msgstr "I raggi dei punti"
-
-#~ msgid "Distribution"
-#~ msgstr "Distribuzione"
-
-#~ msgid "Rough shapes"
-#~ msgstr "Forme ruvide"
-
-#~ msgid "Expand the sheet vertically"
-#~ msgstr "Espandi il foglio verticalmente"
-
-#~ msgid "Save sheet as"
-#~ msgstr "Salva foglio come"
+msgstr ""
